@@ -1,0 +1,50 @@
+/* TODO */
+
+body {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: #f0f0f0;
+    height: 100vh;
+    background-size: contain;
+    margin: 0;
+    font-family: comic, sans-serif;
+}
+
+.container 
+{
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#clickMeButton 
+{
+    font-size: 18px;
+    padding: 50px 100px;
+    background-color: #f366d6;
+    font-family: comic, sans-serif;
+    color: white;
+    cursor: pointer;
+    border-radius: 75px;
+    margin-bottom: 20px;
+    border-color: #f366d6;
+    transition: background-color 0.3s;
+    border-width: 10px;
+}
+
+#clickMeButton:hover
+{
+    background-color: #5a004e;
+    border-color: #5a004e
+}
+
+#count 
+{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
